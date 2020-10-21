@@ -1,8 +1,10 @@
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
+baseURL: "https://diginaat.com/"
 title: PaperMod
 paginate: 8
 theme: hugo-PaperMod
 enableInlineShortcodes: true
+
+googleAnalytics: UA-50139095-1
 
 params:
   env: production
@@ -27,16 +29,10 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "#"
-    - name: stackoverflow
-      url: "#"
-    - name: codepen
-      url: "#"
-    - name: linkedin
-      url: "#"
-    - name: github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
+    - name: facebook
+      url: 'https://facebook.com/diginaat'
+    - name: instagram
+      url: 'https://instagram.com/diginaat'
 
 menu:
   main:
@@ -58,7 +54,7 @@ privacy:
     simple: true
 
   twitter:
-    disabled: false
+    disabled: true
     enableDNT: true
     simple: true
 
